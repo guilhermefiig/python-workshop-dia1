@@ -13,8 +13,4 @@ def maior_numero ():
     elif num3 > num1 and num3 > num2:
         print(f'O número {num3} é maior do que {num2} e {num1}')
 
-    num1 = float(input('Digite o primeiro número: '))
-    num2 = float(input('Digite o terceiro número: '))
-    num3 = float(input('Digite o segundo número: '))
-
 maior_numero()
