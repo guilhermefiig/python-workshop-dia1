@@ -1,11 +1,11 @@
-class Pessoa():
+class Pessoa:
     def __init__(self, nome, idade, profissao):
         self.nome = nome
         self.idade = idade
         self.profissao = profissao
 
     def saudacao(self):
-        print(f'Oi, meu nome é {self.nome}, minha idade é {self.idade} e mina profissão {self.profissao}')
+        print(f'Oi, seu nome é {self.nome}, minha idade é {self.idade} e mina profissão {self.profissao}')
     
 nome = input('Seu nome: ')
 idade = input('Seu idade: ')
